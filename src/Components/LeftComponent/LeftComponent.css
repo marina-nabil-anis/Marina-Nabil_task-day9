@@ -1,0 +1,118 @@
+#PersonalInfo{
+    width: 23%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ 
+}
+
+#MyName{
+    width: 100%;
+    border-radius: 15px;
+    height: 70%;
+    background-color: hsl(235, 45%, 61%);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#MyPic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#Report{
+    color: white;
+    font-size: 11px;
+}
+
+.Name{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+ font-weight: 300;
+}
+
+.BTNS{
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    color:hsl(236, 100%, 87%);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+
+.BTNS:hover{
+    color: white;
+}
+
+#btnsdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 375px) {
+
+    #PersonalInfo{
+        width: 90%;
+        height: 30%;
+        border-radius: 15px;
+        background-color: hsl(235, 46%, 20%);
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-bottom: 10px;
+     
+    }
+
+    #MyName{
+        width: 100%;
+        border-radius: 15px;
+        height: 60%;
+        background-color: hsl(235, 45%, 61%);
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        
+        align-items: center;
+    }
+
+    #Jeremy{
+        display: flex;
+        column-gap: 10px;
+    }
+
+    #MyPic{
+        width: 50px;
+        height: 50px;
+    }
+
+    .Name{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+     font-weight: 300;
+    }
+
+    #btnsdiv{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
+}

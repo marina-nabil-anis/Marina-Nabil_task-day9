@@ -1,0 +1,54 @@
+{
+    "ArrayofOpject": [
+        {
+          "SelectionColor": "hsl(15, 100%, 70%)",
+          "SelectionLogo":  "WorkLogo" ,
+          "ActionLabel": "Work",
+          "Hours": "32hrs",
+          "LastWeek": "Last Week-36hrs",
+          "uniqueID": "1"
+        },
+        {
+            "SelectionColor": "hsl(195, 74%, 62%)",
+            "SelectionLogo": "PlayLogo",
+            "ActionLabel": "Play",
+            "Hours": "10hrs",
+            "LastWeek": "Last Week-8hrs",
+            "uniqueID": "2"
+          },
+          {
+            "SelectionColor": "hsl(348, 100%, 68%)",
+            "SelectionLogo":" StudyLogo",
+           "ActionLabel": "Study",
+            "Hours": "4hrs",
+           "LastWeek": "Last Week-7hrs",
+            "uniqueID": "3"
+          },
+          {
+            "SelectionColor": "hsl(145, 58%, 55%)",
+            "SelectionLogo": "ExerciseLogo",
+            "ActionLabel": "Exercise",
+            "Hours": "4hrs",
+            "LastWeek": "Last Week-5hrs",
+            "uniqueID": "4"
+          },
+          {
+            "SelectionColor": "hsl(264, 64%, 52%)",
+           "SelectionLogo": "SocialLogo",
+            "ActionLabel": "Social",
+            "Hours": "5hrs",
+            "LastWeek": "Last Week-10hrs",
+            "uniqueID": "5"
+          },
+          {
+            "SelectionColor": "hsl(43, 84%, 65%)",
+            "SelectionLogo": "SelfLogo",
+            "ActionLabel": "Self care",
+            "Hours": "2hrs",
+            "LastWeek": "Last Week-2hrs",
+            "uniqueID": "6"
+          }
+          
+      ]
+    
+  }

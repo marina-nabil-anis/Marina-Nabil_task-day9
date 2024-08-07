@@ -1,0 +1,17 @@
+main{
+  width: 80%;
+  height: 60%;
+  
+  display: flex; 
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+  main{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+}

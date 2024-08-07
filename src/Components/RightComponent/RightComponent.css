@@ -1,0 +1,24 @@
+#RightDiv{
+    width: 74%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3,32%) ;
+    grid-template-rows: repeat(2,48%);
+    justify-content: space-between;
+    align-content: space-between;
+   
+}
+
+@media screen and (max-width: 375px){
+    #RightDiv{
+        width: 90%;
+        height: auto;
+        row-gap: 20px;
+        display: flex;
+       flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+       
+    }
+}
