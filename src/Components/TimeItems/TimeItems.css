@@ -4,7 +4,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: end;
     z-index: 1;
     
@@ -12,7 +12,7 @@
 
 .DetailsDiv{
     width: 100%;
-    height: 95%;
+    height: 85%;
     border-radius: 15px;
     background-color:  hsl(235, 46%, 20%);
     padding: 15px;
