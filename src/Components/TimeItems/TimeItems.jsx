@@ -3,13 +3,13 @@ import Dots from '../../assets/icon-ellipsis.svg'
 function TimeItems(props){
     return(
 <div className='TimeDivs' style={{backgroundColor :props.SelectionColor,
-backgroundImage: `url(${props.SelectionLogo})`,
-backgroundRepeat: 'no-repeat',
-backgroundPosition: 'top right',
-backgroundSize: '50px',
+// backgroundImage: `url(${props.SelectionLogo})`,
+// backgroundRepeat: 'no-repeat',
+// backgroundPosition: 'top right',
+// backgroundSize: '50px',
 
 }}>
-    {/* <img  className='Myimg' src={props.SelectionLogo}/> */}
+    <img  className='Myimg' src={props.SelectionLogo}/>
     <div className='DetailsDiv'>
         < div className='FirstLine'>
         <label className='ActionLabel'>{props.ActionLabel}</label>
